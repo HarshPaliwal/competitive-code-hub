@@ -6,13 +6,13 @@ CompetitiveCodeHub is a Java Spring Boot application designed to synchronize the
 ## Project Structure
 
 ```
-codesyncpro
+competitivecodehub
 |-- src
 |   |-- main
 |   |   |-- java
 |   |   |   |-- com
 |   |   |       |-- paliwal999harsh
-|   |   |           |-- codesyncpro
+|   |   |           |-- competitivecodehub
 |   |   |               |-- controller
 |   |   |               |-- model
 |   |   |               |-- service
@@ -23,7 +23,7 @@ codesyncpro
 |   |-- java
 |   |   |-- com
 |   |       |-- paliwal999harsh
-|   |           |-- codesyncpro
+|   |           |-- competitivecodehub
 |   |               |-- service
 |   |-- resources
 ```

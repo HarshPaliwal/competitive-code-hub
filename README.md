@@ -31,20 +31,13 @@ competitivecodehub
 ## Dependencies
 The project uses several Spring Boot and Spring Cloud starters to provide various functionalities:
 
-- `spring-boot-starter-actuator`: For monitoring and managing the application.
 - `spring-boot-starter-data-jpa`: For accessing and managing the database.
-- `spring-boot-starter-graphql`: For implementing GraphQL APIs.
 - `spring-boot-starter-mail`: For sending email notifications.
-- `spring-boot-starter-thymeleaf`: For handling view templates using Thymeleaf.
 - `spring-boot-starter-web`: For building web applications.
 - `spring-cloud-starter-netflix-eureka-client`: For registering the application with Eureka server.
-- `spring-cloud-starter-vault-config`: For fetching configuration from HashiCorp Vault.
-- `spring-shell-starter`: For adding a shell interface to the application.
 - `lombok`: For reducing boilerplate code with annotations.
 - `spring-boot-devtools`: For enabling hot reloading during development.
 - `spring-boot-docker-compose`: For docker-compose support during development.
-- `h2database`: For using an in-memory H2 database during development.
-- `micrometer-registry-datadog`: For monitoring metrics using DataDog.
 - `postgresql`: For using PostgreSQL as the production database.
 - `spring-boot-configuration-processor`: For processing configuration annotations.
 

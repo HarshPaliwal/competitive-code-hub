@@ -26,7 +26,7 @@ public class ProblemService {
         List<ProblemModel> csesFiProblems = csesFiService.fetchProblems();
         if(csesFiProblems!=null){
             problemRepository.saveAll(csesFiProblems);
-            return "CSES FI Problems Fetched";
+            return "CSES FI Problems Fetched.";
         }
         return "Not Fetched";
     }

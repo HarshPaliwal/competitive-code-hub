@@ -16,7 +16,7 @@ public class PlatformService{
         return platformRepository.save(platformModel);
     }
     public PlatformModel getPlatform(String id){
-        return platformRepository.getPlatformById(id);
+        return platformRepository.getReferenceById(id);
     }
 
 }
